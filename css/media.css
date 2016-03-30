@@ -1,0 +1,195 @@
+@media only screen and (max-width: 959px){
+	.main-menu ul{
+		display: none;
+		width: 100%;
+		position: fixed;
+		left: 0;
+		background-color: #3797bf;
+	}
+	
+	.main-menu ul li{
+		display: block;
+		text-align:center;
+	}
+	
+	.main-menu a{
+		padding: 10px;
+	}
+	.element{
+		width: 50%;
+		margin: 5px auto;
+	}
+}
+
+@media (min-width: 760px) and (max-width: 959px){
+	.good_ideas{
+		font-size: 40px;
+	}
+	.first{
+		font-size: 115px;
+	}
+	.s_block{
+		margin-bottom: 10px;
+	}
+	.a_block{
+		margin-bottom: 10px;
+	}
+	.c_info{
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 759px) {
+	.portfolio_menu a{
+		display: block;
+		text-align: center;
+	}
+	#container{
+		margin-left: 0;
+	}
+	.element{
+		width: 50%;
+		margin: 5px auto;
+	}
+	.c_info{
+		text-align: center;
+	}
+	.name,
+	.email{
+		width: 100%;
+		margin: 10px 0;
+		padding: 0;
+	}
+	.maps img{
+		margin: 0 auto;
+	}
+	.maps iframe{
+		width: 100%;
+		max-width: 100%;
+	}
+}
+
+@media (min-width: 500px) and (max-width: 759px){
+	.good_ideas{
+		font-size: 26px;
+		line-height: 36px;
+	}
+	.first{
+		font-size: 86px;
+	}
+	.owl-next,
+	.owl-prev{
+		display: none !important;
+	}
+	.c_title h1,
+	.w_title h1, 
+	.a_title h1, 
+	.title h1{
+		font-size: 35px;
+	}
+	.a_title h2, 
+	.title h2{
+		font-size: 16px;
+		line-height: 27px;
+	}
+	.title p{
+		font-size: 13px;
+		line-height: 16px;
+	}
+	.s_block_title{
+		font-size: 20px;
+		line-height: 18px;
+	}
+	.s_block-description{
+		font-size: 13px;
+		line-height: 15px;
+	}
+	.s_block{
+		margin-bottom: 10px;
+	}
+	.a_title p{
+		font-size: 13px;
+	}
+	.a_block{
+		margin-bottom: 10px;
+	}
+	.a_block_title{
+		padding: 0;
+		font-size: 17px;
+	}
+	.a_block-description{
+		margin: 0;
+	}
+	.c_title p,
+	.w_title p{
+		font-size: 13px;
+	}
+}
+
+@media only screen and (max-width: 499px){
+	.good_ideas{
+		font-size: 15px;
+		line-height: 20px;
+	}
+	.first{
+		font-size: 50px;
+	}
+	.owl-next,
+	.owl-prev{
+		display: none !important;
+	}
+	.c_title h1,
+	.w_title h1, 
+	.a_title h1, 
+	.title h1{
+		font-size: 27px;
+		line-height: 30px;
+	}
+	.a_title h2, 
+	.title h2{
+		font-size: 15px;
+		line-height: 27px;
+	}
+	.title p{
+		font-size: 12px;
+		line-height: 16px;
+	}
+	.s_block_title{
+		font-size: 20px;
+		line-height: 18px;
+	}
+	.s_block-description{
+		font-size: 12px;
+		line-height: 15px;
+	}
+	.s_block{
+		margin-bottom: 10px;
+	}
+	.a_title p{
+		font-size: 12px;
+	}
+	.a_block{
+		margin-bottom: 10px;
+	}
+	.a_block_title{
+		padding: 0;
+		font-size: 17px;
+	}
+	.a_block-description{
+		margin: 0;
+	}
+	.c_title p,
+	.w_title p{
+		font-size: 12px;
+	}
+
+}
+
+@media only screen and (min-width: 960px){
+	.main-menu ul{
+		display: -webkit-box !important;
+		display: -webkit-flex !important;
+		display: -ms-flexbox !important;
+		display: flex !important;
+	}
+}
